@@ -28,12 +28,15 @@ Rather than using sieve, or similar, rules to move unwanted email to a spam fold
 
 To configure your Postfix MTA to do this, you'll need to add the postfix-pcre package and create a suitable regex file with a list of domains in this format:
 
+```text
+
 <domain in regex>			<Error code> <Error text>
 
 Example:
 
 /haverynash\.com$/			550 Rejected. Fake agency scam.
 
+```
 The first column is the domain name you're looking for, in this case a fake agency with a deliberate incorrect spelling of a legit firm.  Followed by a code and text to reply to the sending server.  A 5xx code is a hard failure so will stop any retries.
 
 Once a list is completed, have postmap hash the file:
@@ -46,12 +49,14 @@ check_sender_access pcre:/etc/postfix/sender_access
 
 Example:
 
+```text
+
 smtpd_relay_restrictions =      <....>
                                 defer_unauth_destination,
                                 reject_rbl_client zen.spamhaus.org,
                                 check_sender_access pcre:/etc/postfix/sender_access
 
-
+```
 If you want to check earlier in the SMTP dialogue then add it to smtpd_recipient_restrictions instead.  I keep this check after the rbl checks, as untrustworthy mail is usually caught by spamhaus.
 
 Hints:
