@@ -1,0 +1,104 @@
+# ADDRESS PATTERN		# ACTION
+/\.ru$/				550 Mail from .ru not accepted
+/\.rs$/				550 Mail from .rs not accepted
+/\.cn$/				550 Mail from .cn not accepted
+/\.in$/				550 Mail from .in not accepted.
+/adecco\.com$/			550 You are on the useless agencies list
+/adeccogroup\.com$/		550 You are on the useless agencies list
+/\.creditformerchants\.co\.uk$/		550 Scammy finance 
+/avanceservices\.uk$/		550 Scam agency block list
+/roberthalf\.net$/		550 You are on the untrustworthy agencies list
+/teksystems\.com$/		550 You are on the WTF agencies list
+/infinstall\.de$/		550 Rejected as spam
+/eacg\.co\.uk$/				550 Rejected as agency spam
+/accionlabs\.com$/               550 You are on the scam agencies list
+/agreeya\.com$/                  550 You are on the scam agencies list
+/aloisstaffing\.com$/            550 You are on the scam agencies list
+/arksolutionsinc\.com$/          550 You are on the scam agencies list
+/bcomputing\.com$/               550 You are on the scam agencies list
+/bluestonestaffing\.com$/        550 You are on the scam agencies list
+/celerity\.com$/                 550 You are on the scam agencies list
+/covetus\.com$/                  550 You are on the scam agencies list
+/deegit\.com$/                   550 You are on the scam agencies list
+/diverselynx\.com$/              550 You are on the scam agencies list
+/ebsminds\.com$/                 550 You are on the scam agencies list
+/enterprisesolutioninc\.com$/    550 You are on the scam agencies list
+/e\-solutionsinc\.com$/           550 You are on the scam agencies list
+/first\-tek\.com$/                550 You are on the scam agencies list
+/fortek\.com$/                   550 You are on the scam agencies list
+/genpact\.com$/                  550 You are on the scam agencies list
+/hanstaffing\.com$/              550 You are on the scam agencies list
+/hmgamerica\.com$/               550 You are on the scam agencies list
+/idctechnologies\.com$/          550 You are on the scam agencies list
+/iic\.com$/                      550 You are on the scam agencies list
+/insoursysinc\.com$/             550 You are on the scam agencies list
+/knowledgemomentum\.com$/        550 You are on the scam agencies list
+/krgtech\.com$/                  550 You are on the scam agencies list
+/net2source\.com$/               550 You are on the scam agencies list
+/nlbservices\.com$/              550 You are on the scam agencies list
+/panasiagroup\.net$/             550 You are on the scam agencies list
+/panzersols\.com$/               550 You are on the scam agencies list
+/prolim\.com$/                   550 You are on the scam agencies list
+/ramyinfotech\.com$/             550 You are on the scam agencies list
+/softpath\.net$/                 550 You are on the scam agencies list
+/tanishasystems\.com$/           550 You are on the scam agencies list
+/techrakers\.com$/               550 You are on the scam agencies list
+/themesoft\.com$/                550 You are on the scam agencies list
+/usitsol\.com$/                  550 You are on the scam agencies list
+/ustechsolutionsinc\.com$/       550 You are on the scam agencies list
+/vertigonconsulting\.com$/       550 You are on the scam agencies list
+/ztek\-inc\.com$/            	550 You are on the scam agencies list
+/simpson\-judgestaffing\.com$/	550 You are on the scam agencies list
+/jobsbyemail\.io$/		550 You are on the scam agencies list
+/24hrtalent\.com$/		550 You are on the scam agencies list
+/impactcontact\.com$/		550 You are on the scam agencies list
+/yellowmarketingprogramme\.com$/		550 Rejected as spam
+/apply4ukjobs\.co\.uk$/		550 You are on the scam agencies list
+/apply4u\.com$/			550 You are on the scam agencies list
+/hotmail\.com$/			550 Freemail not accepted
+/electriccarsscheme\.co\.uk$/	550 Fake unsubscribe spam
+/careerwalletjobalert\.com$/	550 You are on the scam agencies list
+/thecareerwallet\.com$/		550 You are on the scam agencies list
+/jobmatcho\.com$/		550 You are on the scam agencies list
+/thebigjobsite\.com$/		550 You are on the scam agencies list
+/diversejobsmatter\.co\.uk$/	550 You are on the scam agencies list
+/creativenetworksltdmail\.uk$/	550 Utterly useless spam
+/creativenetworks\-mail\.co\.uk$/	550 Utterly useless spam
+/em\-mail\.co\.uk$/		550 Utterly useless spam
+/realestateintouktr\.co\.uk$/	550 Rejected as spam
+/giostechnology\.com$/		550 You are on the scam agencies list 
+/jobnotification\.co\.uk$/	550 You are on the scam agencies list
+/synopanel\.com$/		550 Survey spam
+/toluna\.com$/			550 Survey spam
+/opinionoutpost\.co\.uk$/		550 Survey spam
+/gobranded\.com$/		550 Survey spam
+/valuedopinions\.co\.uk$/		550 Survey spam
+/britanniabullion\.com$/		550 Gold scam
+/space32pro\.co\.uk$/		550 Rejected as spam
+/kyonagomi\.co\.jp$/		550 Rejected as spam
+/propeller\-studios\.co\.uk$/	550 Rejected as finance spam
+/allthetopbananas\.com$/		550 You are on the scam agencies list
+/iplaceuk\.com$/	550 You are on the scam agencies list
+/iplaceuk2\.com$/	550 You are on the scam agencies list
+/iplaceuk3\.com$/	550 You are on the scam agencies list
+/@.*\.hays\.com$/	                550 Reject as Hays spam
+/hays\.com$/		550 Rejected as Hays spam 
+/mileseducation\.com$/		550 Rejected fake Netflix spam
+/cproductsmta\.co\.uk$/		550 Rejected as property scam spam
+/oakmountpartners\.co\.uk$/	550 Rejected as finance scam Glenn King scam
+/hubspotemail\.net$/		550 Rejected as finance scam Glenn King scam
+/@.*elite-logos4u\.co\.uk$/	550 Rejected as spam
+/intelstack\.com$/		550 You are on the scam agencies list
+/healerverse\.store$/		550 Rejected as health scam
+/gs-solutions\.io$/		550 You are on the scam agencies list
+/charliehr\.com$/		550 You are on the scam agencies list
+/mandrillapp\.com$/		550 You are on the scam agencies list
+/vipjetsexecutive\.com$/		550 Rejected as spam
+/infoplusltd\.co\.uk$/		550 You are on the Indian scam agencies list
+/vipjetsluxe\.com$/		550 Rejected as spam
+/scopeat\.co\.uk$/		550 Rejected as agency spam
+/moneyshow\.com$/		550 Rejected as spam. Unsubscribe failed.
+/designandbuilduk\.net$/	550 Rejected as spam
+/24recruitmentmail\.com$/	550 You are on the scam agencies list 
+/deltaclasstech\.com$/		550 Rejected. You are on the Indian scam agencies list
+/haverynash\.com$/			550 Rejected. Fake agency scam.
