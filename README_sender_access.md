@@ -1,16 +1,18 @@
+```test
          _   _                 _____
  _____  | | | | _____      __ |_   _|__ _   _____
 |_____| | |_| |/ _ \ \ /\ / /   | |/ _ (_) |_____|
 |_____| |  _  | (_) \ V  V /    | | (_) |  |_____|
         |_| |_|\___/ \_/\_/     |_|\___(_)
 
-**************************************************
+```
+*******************************************************************************
 * Author: Steven L. Croucher
 * Date: 20261127
 * Revision - v0.1 - Initial Draft
-* Subject: Configuring Postfix to reject mail by
-*          Domain name from a regex file
-**************************************************
+* Revision - v0.2 - Fixed spelling mistakes and formatting errors - 20261126 SC
+* Subject: Configuring Postfix to reject mail by Domain name from a regex file
+*******************************************************************************
 
 Requirements:
 
