@@ -9,4 +9,6 @@ These lists are not in any way meant to give a rating, hint at the trustworthine
 
 You use these lists at your own risk.
 
+If you want to reject certain domains, it has uses outside of filtering agency mail/spam/drivel, then have a look at the README_sender_access.md text document.  It provides an easy way to list domains to 554 block.
+
 Lift. Ride. Run. Rock.  Repeat daily for successful living.
