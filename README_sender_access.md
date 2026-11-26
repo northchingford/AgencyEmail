@@ -24,7 +24,10 @@ Main text:
 
 Rather than using sieve, or similar, rules to move unwanted email to a spam folder, it's possible to setup Postfix to reject mail at SMTP dialogue level and bounce unwanted mail with a 550 failure.  See this example from a Postfix log:
 
+```text
 /var/log/mail.log.1:2026-11-20T14:35:07.412970+00:00 mailgw postfix/smtpd[36931]: NOQUEUE: reject: RCPT from v5119.v5c4dda55.use4.send.mailgun.net[159.112.241.119]: 550 5.7.1 <postmaster@cio130258.events.moneyshow.com>: Sender address rejected: Rejected as spam; from=<postmaster@cio130258.events.moneyshow.com> to=<stevenc@stevencroucher.com> proto=ESMTP helo=<v5119.v5c4dda55.use4.send.mailgun.net>
+
+```
 
 To configure your Postfix MTA to do this, you'll need to add the postfix-pcre package and create a suitable regex file with a list of domains in this format:
 
